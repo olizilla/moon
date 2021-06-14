@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "name": "moon",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "An IPFS gateway",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "wrangler dev",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "dependencies": {
+    "itty-router": "^2.3.10"
+  }
+}

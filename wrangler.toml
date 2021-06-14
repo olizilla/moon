@@ -1,0 +1,14 @@
+name = "moon"
+type = "javascript"
+workers_dev = true
+webpack_config = "webpack.config.js"
+# route = ""
+# zone_id = ""
+account_id = "6e5a2aed80cd37d77e8d0c797a75ebbd"
+
+[build]
+command = "npm run build"
+watch_dir = "src"
+
+[build.upload]
+format = "service-worker"
